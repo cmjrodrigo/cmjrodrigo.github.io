@@ -1,0 +1,105 @@
+html {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #061a40;
+    color: #b9d6f2;
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 20px;
+    color: #49a7ff;
+
+}
+h2{
+    text-align: center;
+}
+a{
+    text-decoration: underline;
+    color: #588fd6
+}
+
+#my-picture{
+    width:250px;
+    height:250px;
+    border: 0;
+    /* background-color:rgb(187, 187, 187); */
+    border-radius: 50%;
+}
+
+/* Banner and title */
+#banner{
+    height:400px;
+}
+#banner-center{
+    height:100%;
+    width: auto;
+    margin: 0 auto;
+    padding: 0 15%;
+    display: inline-flex;
+    align-items: center;
+}
+#nombre{
+    margin:auto 50px;
+}
+
+/* Main layout */
+main{
+    margin: 0 auto;
+    padding: 0 15%;
+    text-align: justify;
+    line-height: 2;
+}
+/* Section Buttons */
+#section-buttons{
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+}
+.button{
+    font-size: 25px;
+    background-color: #0353a4;
+    padding: 15px;
+    border-radius: 7px;
+    margin: 10px;
+}
+#about-button{
+    margin-left: 0;
+}
+#about-button:hover{
+    padding: 20px 17.5px;
+}
+.button a{
+    color: #b9d6f2;
+    text-decoration: none;
+}
+.button a:hover{
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #006daa;
+    margin:5px;
+    padding:20px;
+    cursor:pointer;
+}
+footer{
+    height: 100px;
+    line-height: 1.5;
+    margin: 30px auto;
+    margin-bottom: 0;
+    padding: 20px 15%;
+    color:white;
+    background-color: black;
+}
+section{
+    margin-top: 40px;
+}
+section h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+section p, section ul{
+    padding: 0 5rem;
+}
