@@ -194,5 +194,6 @@ footer{
 
     .project-container img{
         height:100%;
+        overflow: hidden;
     }
 }
