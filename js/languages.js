@@ -32,7 +32,7 @@ const lan = {
     es : {
         about : {
             title : "Acerca de mi",
-            text : "Soy un estudiante de tecnologías computacionales con conocimientos de desarrollo web básico, así como manejo de lenguajes de programación de bajo y alto nivel. Me encanta leer libros, cómics, manga y webtoons, y también tengo interés por la divulgación científica y la astrofísica. Soy trilingüe (sin contar ningún lenguaje de programación), y me gusta aprender e interactuar con diferentes culturas de todo el mundo; su música, su comida, su historia, etc. También me gusta escuchar música y sé tocar la guitarra y el bajo.",
+            text : "Soy un estudiante de tecnologías computacionales con conocimientos de desarrollo web básico, así como manejo de lenguajes de programación de bajo y alto nivel. Me encanta leer libros, cómics, manga y webtoons, y también tengo interés por la divulgación científica y la astrofísica. Soy trilingüe, y me gusta aprender e interactuar con diferentes culturas de todo el mundo; su música, su comida, su historia, etc. También me gusta escuchar música y sé tocar la guitarra y el bajo.",
         },
         skills : {
             title : "Habilidades",
@@ -61,7 +61,7 @@ const lan = {
     en : {
         about : {
             title : "About me",
-            text : "I am a computational technologies student with knowledge of basic web development, as well as management of both low and high level programming languages. I love to read books, comics, manga, and webtoons, and I also have an interest for scientific divulgation and astrophysics. I'm trilingual (without counting any programming languages), and like to learn and interact with different cultures from all around the world; their music, their food, story, etc. I also like to listen to music and can play both guitar and bass.",
+            text : "I am a computational technologies student with knowledge of basic web development, as well as management of both low and high level programming languages. I love to read books, comics, manga, and webtoons, and I also have an interest for scientific divulgation and astrophysics. I'm trilingual, and like to learn and interact with different cultures from all around the world; their music, their food, story, etc. I also like to listen to music and can play both guitar and bass.",
         },
         skills : {
             title : "Skills",
@@ -90,7 +90,7 @@ const lan = {
     de : {
         about : {
             title : "Über mich",
-            text : "Ich bin Student der Computertechnologien und verfüge über Grundkenntnisse in der Webentwicklung sowie in der Beherrschung von Programmiersprachen auf niedriger und hoher Ebene. Ich lese gerne Bücher, Comics, Mangas und Webtoons und interessiere mich auch für wissenschaftliche Erkenntnisse und Astrophysik. Ich bin dreisprachig (ohne Programmiersprachen mitzuzählen) und lerne gerne verschiedene Kulturen aus der ganzen Welt kennen; ihre Musik, ihr Essen, ihre Geschichten usw. Ich höre auch gerne Musik und kann sowohl Gitarre als auch Bass spielen.",
+            text : "Ich bin Student der Computertechnologien und verfüge über Grundkenntnisse in der Webentwicklung sowie in der Beherrschung von Programmiersprachen auf niedriger und hoher Ebene. Ich lese gerne Bücher, Comics, Mangas und Webtoons und interessiere mich auch für wissenschaftliche Erkenntnisse und Astrophysik. Ich bin dreisprachig und lerne gerne verschiedene Kulturen aus der ganzen Welt kennen; ihre Musik, ihr Essen, ihre Geschichten usw. Ich höre auch gerne Musik und kann sowohl Gitarre als auch Bass spielen.",
         },
         skills : {
             title : "Fähigkeiten",
