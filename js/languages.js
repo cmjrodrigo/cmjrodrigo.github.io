@@ -125,6 +125,19 @@ function copyArr(a, b){
 }
 
 function changeLanguage(docObj, lanObj){
+    switch(lanObj){
+        case lan.en:
+            localStorage.setItem("Language", "en");
+            break;
+        case lan.es:
+            localStorage.setItem("Language", "es");
+            break;
+        case lan.de: 
+            localStorage.setItem("Language", "de");
+            break;
+        default:
+            localStorage.setItem("Language", "en");
+    }
     //about
     docObj.about.title.innerHTML = lanObj.about.title;
     docObj.about.text.innerHTML = lanObj.about.text;
@@ -151,8 +164,18 @@ function changeLanguage(docObj, lanObj){
     copyArr(docObj.projects.list, lanObj.projects.list);
 }
 
-for(let i = 0; i < doc.projects.list.length; i++){
-console.log(doc.projects.list[i].innerHTML)
+let pastLan = localStorage.getItem("Language");
+
+switch(pastLan){
+    case "en":
+        changeLanguage(doc, lan.en);
+        break;
+    case "es":
+        changeLanguage(doc, lan.es);
+        break;
+    case "de":
+        changeLanguage(doc, lan.de);
+        break;
 }
 
 let de = document.getElementById("deutsch");
