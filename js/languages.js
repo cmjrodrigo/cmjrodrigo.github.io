@@ -24,7 +24,7 @@ const doc = {
     },
     projects : {
         title: document.querySelector("#projects h2"),
-        list : [...document.querySelectorAll("#big-project-container div p")]
+        list : [...document.querySelectorAll("#big-project-container a p")]
     }
 };
 
@@ -55,7 +55,7 @@ const lan = {
         },
         projects : {
             title: "Proyectos",
-            list : ["Portafolio de desarrollador", "Página web de AIRams", "Aplicación de C en la terminal: Banco.Co"]
+            list : ["Portafolio de desarrollador", "Página web de AIRams", "Aplicación de C en la terminal: Banco.Co", "Aplicación de C en la terminal: Ajedrez"]
         }
     },
     en : {
@@ -84,7 +84,7 @@ const lan = {
         },
         projects : {
             title: "Projects",
-            list : ["Developer Portfolio", "AIRams website", "C terminal app: Banco.Co"]
+            list : ["Developer Portfolio", "AIRams website", "C terminal app: Banco.Co", "C terminal app: Chess"]
         }
     },
     de : {
@@ -113,7 +113,7 @@ const lan = {
         },
         projects : {
             title: "Projekte",
-            list : ["Entwickler-Portfolio", "AIRams website", "C Terminal App: Banco.co"]
+            list : ["Entwickler-Portfolio", "AIRams website", "C Terminal App: Banco.co", "C Terminal App: Chess"]
         }
     }
 };
