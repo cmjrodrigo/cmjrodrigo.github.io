@@ -55,7 +55,7 @@ const lan = {
         },
         projects : {
             title: "Proyectos",
-            list : ["Portafolio de desarrollador", "Página web de AIRams", "Aplicación de C en la terminal: Banco.Co", "Aplicación de C en la terminal: Ajedrez"]
+            list : ["Portafolio de desarrollador", "Aplicación de C en la terminal: Banco.Co", "Juego de C++ usando X11: Space Invaders"]
         }
     },
     en : {
@@ -84,7 +84,7 @@ const lan = {
         },
         projects : {
             title: "Projects",
-            list : ["Developer Portfolio", "AIRams website", "C terminal app: Banco.Co", "C terminal app: Chess"]
+            list : ["Developer Portfolio","C terminal app: Banco.Co", "C++ Game using X11: Space Invaders"]
         }
     },
     de : {
@@ -113,7 +113,7 @@ const lan = {
         },
         projects : {
             title: "Projekte",
-            list : ["Entwickler-Portfolio", "AIRams website", "C Terminal App: Banco.co", "C Terminal App: Chess"]
+            list : ["Entwickler-Portfolio","C Terminal App: Banco.co", "C++ videospiel mit X11: Space Invaders"]
         }
     }
 };
